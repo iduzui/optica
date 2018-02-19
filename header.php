@@ -33,6 +33,8 @@
                 <button type="submit" class="icon-search_16"></button>
               </form>
             </li>
+			<div class="subtitle">&nbsp;&nbsp;INDEX</div>
+            <li><a href="<?php $this->options->siteUrl(); ?>">首页<i class="icon-arrow_carrot_right"></i></a></li>
             <div class="subtitle">&nbsp;&nbsp;PAGES</div>
             <?php $this->widget('Widget_Contents_Page_List')->to($pages); ?>
              <?php while($pages->next()): ?>
